@@ -4,10 +4,6 @@ bool isPowerOfThree(int n) {
     {
         choice = false;
     }
-    // else if (n == 1)
-    // {
-    //     return true;
-    // }
     else
     {
         while(n % 3 == 0)
