@@ -4,7 +4,7 @@
 // Simply use a nested loop and
 // compare every character of one string with every character of another string
 // convert every character to its ascii (int) before comparing
-// icrement the count, if match is found
+// increment the count, if match is found
 
 class Solution {
 public:
