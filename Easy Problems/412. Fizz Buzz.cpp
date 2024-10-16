@@ -1,7 +1,5 @@
-// Question
 // https://leetcode.com/submissions/detail/1193707065/
 
-// Explanation:
 // took a vector
 // iterated from 1 till n, given.
 // if any number is divisible by 3 and 5, pushed FizzBuzz to vector

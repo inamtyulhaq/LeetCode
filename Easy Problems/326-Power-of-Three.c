@@ -1,3 +1,5 @@
+// https://leetcode.com/problems/power-of-three/description/
+
 bool isPowerOfThree(int n) {
     bool choice;
     if(n <= 0 || n % 3 != 0)

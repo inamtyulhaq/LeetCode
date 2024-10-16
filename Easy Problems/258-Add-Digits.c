@@ -1,3 +1,8 @@
+// https://leetcode.com/problems/add-digits/description/
+
+// repeatedly divide the number by 10
+// and keep on adding digits by taking its remainder by 10
+
 int addDigits(int num) {
     while(num >= 10)
     {

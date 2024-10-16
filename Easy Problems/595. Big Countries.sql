@@ -1,4 +1,4 @@
-// https://leetcode.com/problems/big-countries/
+-- https://leetcode.com/problems/big-countries/
 
 -- solved in ORACLE SQL
 -- do focus that select only those names, populations and areas where either area is greater than 3000000

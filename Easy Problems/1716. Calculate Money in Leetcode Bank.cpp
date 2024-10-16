@@ -1,7 +1,5 @@
 // https://leetcode.com/problems/calculate-money-in-leetcode-bank/description/
 
-//
-
 class Solution {
 public:
     int totalMoney(int n) {

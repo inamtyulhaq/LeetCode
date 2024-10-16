@@ -1,4 +1,4 @@
-// https://leetcode.com/problems/find-customer-referee/
+-- https://leetcode.com/problems/find-customer-referee/
 
 -- select only those names which are not referred by id = 2
 -- or which are NULL

@@ -1,6 +1,6 @@
 // https://leetcode.com/problems/type-of-triangle/description/
 
-//
+// implement the simple logic of triangle type and return the type of triangle
 
 class Solution {
 public:

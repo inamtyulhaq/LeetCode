@@ -1,3 +1,5 @@
+// https://leetcode.com/problems/power-of-four/
+
 bool isPowerOfFour(int n) {
     bool choice;
     if(n <= 0 || n % 4 != 0)

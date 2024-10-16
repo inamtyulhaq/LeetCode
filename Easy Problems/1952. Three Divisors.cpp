@@ -1,7 +1,5 @@
 // https://leetcode.com/problems/three-divisors/description/
 
-// 
-
 class Solution {
 public:
     bool isThree(int n) {

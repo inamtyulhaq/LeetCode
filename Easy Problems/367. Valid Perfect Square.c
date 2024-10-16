@@ -1,3 +1,5 @@
+// https://leetcode.com/problems/valid-perfect-square/description/
+
 bool isPerfectSquare(int num) {
     bool choice = false;
     for(long int i = 1; i <= num; i++)
