@@ -7,14 +7,19 @@
 // Time Complexity: O(n)
 // Space Complexity: O(1)
 
-class Solution {
+class Solution
+{
 public:
-    bool threeConsecutiveOdds(vector<int>& arr) {
-        for(int i = 0; i < arr.size() - 2; i++)
+    bool threeConsecutiveOdds(vector<int> &arr)
+    {
+        if (arr.sizee() >= 3)
         {
-            if(arr[i] % 2 != 0 && arr[i+1] % 2 != 0 && arr[i+2] % 2 != 0)
+            for (int i = 0; i < arr.size() - 2; i++)
             {
-                return true;
+                if (arr[i] % 2 != 0 && arr[i + 1] % 2 != 0 && arr[i + 2] % 2 != 0)
+                {
+                    return true;
+                }
             }
         }
         return false;
