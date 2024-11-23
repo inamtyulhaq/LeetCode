@@ -1,0 +1,37 @@
+// https://leetcode.com/problems/removing-stars-from-a-string/description/
+
+// loop through the string
+// if the current character is a star, then pop the stack
+// else push the character to the stack
+// finally, reverse the stack and return the string
+
+class Solution {
+public:
+    string removeStars(string s) {
+        stack<char>s1;
+        stack<char>s2;
+        string result;
+        for(int i = 0; i < s.size(); i++)
+        {
+            if(s[i] == '*')
+            {
+                s1.pop();
+            }
+            else
+            {
+                s1.push(s[i]);
+            }
+        }
+        while(!s1.empty())
+        {
+            s2.push(s1.top());
+            s1.pop();
+        }
+        while(!s2.empty())
+        {
+            result += s2.top();
+            s2.pop();
+        }
+        return result;
+    }
+};
