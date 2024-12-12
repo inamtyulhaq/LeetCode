@@ -1,7 +1,11 @@
 // https://leetcode.com/problems/binary-tree-postorder-traversal/
 
 // use recursive approach
-// 
+// the classic recursive approach
+// firstly recursively go till the left most node
+// then till the right most
+// then print 
+// then go back to where you came from (recursion)
 
 /**
  * Definition for a binary tree node.
